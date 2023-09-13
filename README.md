@@ -11,6 +11,10 @@
 Official implementation of the paper Zero Shot Audio Cpationing via Audibility Guidance.
  <br>
 
+## Audibility Dataset
+for the full dataset: [Audibility Dataset](https://github.com/arielshaulov/zero-shot-audio-captioning/tree/main/audibility-dataset), 
+
+
 ## Examples from the AudioCap Dataset
 <p align="center">
 <img src="static/images/viz.jpg" width="750px"/>  
