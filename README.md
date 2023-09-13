@@ -13,7 +13,7 @@ Official implementation of the paper Zero Shot Audio Cpationing via Audibility G
 
 ## Concept Explanation with Conceptor
 <p align="center">
-<img src="static/images/viz.jpg" width="800px"/>  
+<img src="static/images/viz.jpg" width="750px"/>  
 <br>
 Examples of generated captions without (baseline) and with (ours) the audibility guidance, compared to the GT.
 </p>
