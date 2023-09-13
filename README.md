@@ -11,7 +11,7 @@
 Official implementation of the paper Zero Shot Audio Cpationing via Audibility Guidance.
  <br>
 
-## Concept Explanation with Conceptor
+## Examples from the AudioCap Dataset
 <p align="center">
 <img src="static/images/viz.jpg" width="750px"/>  
 <br>
