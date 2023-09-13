@@ -12,7 +12,7 @@ Official implementation of the paper Zero Shot Audio Cpationing via Audibility G
  <br>
 
 ## Audibility Dataset
-for the full dataset: [Audibility Dataset](https://github.com/arielshaulov/zero-shot-audio-captioning/tree/main/audibility-dataset), 
+For the full dataset please checkout: [Audibility Dataset](https://github.com/arielshaulov/zero-shot-audio-captioning/tree/main/audibility-dataset)
 
 
 ## Examples from the AudioCap Dataset
