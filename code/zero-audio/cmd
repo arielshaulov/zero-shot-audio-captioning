@@ -1,0 +1,22 @@
+CUDA_VISIBLE_DEVICES=0 python -W ignore run.py --start 0 --stop 5
+CUDA_VISIBLE_DEVICES=0 python -W ignore run.py --start 5 --stop 10
+CUDA_VISIBLE_DEVICES=1 python -W ignore run.py --start 10 --stop 15
+CUDA_VISIBLE_DEVICES=1 python -W ignore run.py --start 15 --stop 20
+CUDA_VISIBLE_DEVICES=2 python -W ignore run.py --start 20 --stop 25
+CUDA_VISIBLE_DEVICES=2 python -W ignore run.py --start 25 --stop 30
+
+
+CUDA_VISIBLE_DEVICES=0 python -W ignore run.py --w_guidence 0 --top_size 512 --beam_size 1 --num_iterations 3 --target_seq_length 10
+CUDA_VISIBLE_DEVICES=1 python -W ignore run.py --w_guidence 0 --top_size 512 --beam_size 1 --num_iterations 3 --target_seq_length 12
+CUDA_VISIBLE_DEVICES=4 python -W ignore run.py --w_guidence 0 --top_size 512 --beam_size 1 --num_iterations 3 --target_seq_length 14
+
+CUDA_VISIBLE_DEVICES=2 python -W ignore run.py --w_guidence 0.09 --top_size 512 --beam_size 1 --num_iterations 3 --target_seq_length 8
+CUDA_VISIBLE_DEVICES=3 python -W ignore run.py --w_guidence 0.15 --top_size 512 --beam_size 1 --num_iterations 3 --target_seq_length 8
+
+
+CUDA_VISIBLE_DEVICES=0 python -W ignore run.py --w_guidence 0 --top_size 512 --beam_size 1 --num_iterations 3 --target_seq_length 8
+CUDA_VISIBLE_DEVICES=1 python -W ignore run.py --w_guidence 0.005 --top_size 512 --beam_size 1 --num_iterations 3 --target_seq_length 8
+CUDA_VISIBLE_DEVICES=2 python -W ignore run.py --w_guidence 0.015 --top_size 512 --beam_size 1 --num_iterations 3 --target_seq_length 8
+CUDA_VISIBLE_DEVICES=3 python -W ignore run.py --w_guidence 0.025 --top_size 512 --beam_size 1 --num_iterations 3 --target_seq_length 8
+CUDA_VISIBLE_DEVICES=4 python -W ignore run.py --w_guidence 0.035 --top_size 512 --beam_size 1 --num_iterations 3 --target_seq_length 8
+
